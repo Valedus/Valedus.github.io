@@ -21,3 +21,25 @@
 
 #main-footer .btn-outline-light:hover {
   color: #000 !important; }
+
+.skills-table .h1main {
+  position: relative; }
+  .skills-table .h1main h1 {
+    background-color: #fff; }
+  .skills-table .h1main::after, .skills-table .h1main::before {
+    position: absolute;
+    height: 3px;
+    width: 35%;
+    background-color: #777;
+    content: '';
+    top: 4.5rem;
+    z-index: -1; }
+  .skills-table .h1main::before {
+    right: 50px; }
+  .skills-table .h1main::after {
+    left: 50px; }
+
+.wrapper {
+  width: 50%; }
+  .wrapper img {
+    height: 200px; }

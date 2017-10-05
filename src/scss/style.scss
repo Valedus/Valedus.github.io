@@ -33,3 +33,36 @@
     color: #000 !important;
   }
 }
+
+// Skills section
+.skills-table {
+    .h1main {
+    position: relative;
+
+      h1 {
+        background-color: #fff;
+      }
+
+      &::after, &::before {
+        position: absolute;
+        height: 3px;
+        width: 35%;
+        background-color: #777;
+        content: '';
+        top: 4.5rem;
+        z-index: -1;
+      }
+      &::before {
+        right: 50px;
+      }
+      &::after {
+        left: 50px;
+      }
+    }
+}
+
+.wrapper {
+  width: 50%;
+
+  img {height: 200px;}
+}
