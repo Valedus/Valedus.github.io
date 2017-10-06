@@ -24,6 +24,7 @@
 
 .skills-table .h1main {
   position: relative; }
+  
   .skills-table .h1main h1 {
     background-color: #fff; }
   .skills-table .h1main::after, .skills-table .h1main::before {
